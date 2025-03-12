@@ -92,7 +92,30 @@
           </section>
     </header>
     <!-- Main Content -->
-     <main>
+     <main class="relative">
+
+      <!-- new section  -->
+
+      <section class="w-full bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] mt-10">
+        <div class=" w-[88%] mx-auto flex justify-evenly flex-col md:flex-row items-end gap-10">
+          <div class="space-y-4">
+                  <h3 class="text-4xl font-sans">Meet Our Super <br> Clients </h3>
+                  <p>There are many variations of passages of <br>Lorem Ipsum available, but the majority <br>  have suffered alteration in some form, by <br> injected humour, or randomised words which <br> don't look even slightly believable. </p>
+
+                  <button class="px-5 py-3 bg-yellow-400 rounded-xl">Show all</button>
+
+          </div>
+
+          <div class="bg-white rounded-full p-14 relative">
+                 <div>
+                  <img src="images/client.png" alt="" class="absolute -top-7 right-3">
+                  <p class="font-sans text-xl">We are providing the best and suitable <br> home insurance services for the people <br> who are interested to treatment</p>
+                  <p class="mt-1">Unga Bunga</p>
+                 </div>
+          </div>
+        </div>
+      </section>
+
   <!-- Catagory section -->
    <section class="w-full mt-10">
      <div class="w-[88%] mx-auto">
@@ -186,7 +209,7 @@
    </section>
 
    <!-- Trending by catagory -->
-    <section class="bg-[#FFF9F4] mt-8 lg:px-3 lg:py-5">
+    <section class="bg-[#FFF9F4] mt-10 lg:px-3 lg:py-5 ">
    
       <div class="w-[88%] mx-auto">
      <h3 class="text-2xl ">Trending Pet Products</h3>
@@ -317,10 +340,111 @@
       </div>
 
     </section>
-     </main>
-     <!-- Footer -->
-      <footer>
 
+    <!-- Everyday low Price -->
+      <section >
+    <div class="w-[88%] mx-auto lg:pb-80 pb-96 mt-10">
+     <h2 class="text-2xl">Everyday low Price</h2>
+     <!--grid row and col section   -->
+     <div class="grid grid-cols-1 grid-rows-2 lg:grid-cols-5 lg:grid-rows-1 gap-5">
+
+      <!-- card 1 -->
+       <div class="lg:col-span-3 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl flex justify-around lg:justify-center items-center lg:p-5 p-4 pl-3">
+            <div>
+              <p class="font-sans">Under Price</p>
+              <h2 class="text-xl">Pet Grooming Mitt</h2>
+              <p class="text-lg text-white">(Easy Hair Removal)</p>
+              <p class="lg:text-5xl text-3xl">$7.99</p>
+            </div>
+   <!-- image section -->
+
+         <div class="">
+          <img src="images/cute-dog-mid.png" alt="" class="lg:w-[90%] w-[70%] ml-7">
+         </div>
+
+       </div>
+
+       <!-- card 2 -->
+
+       <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] lg:col-span-2 rounded-xl relative pb-36">
+        
+       <div class="p-5 ">
+        <h2 class="text-2xl">T-Shirt for Dogs</h2>
+        <p class=" text-yellow-400 text-5xl">$7.99</p>
+       </div>
+       <div class="hidden lg:flex md:flex absolute bottom-0 right-0">
+        <img  src="images/cute-pet-mid.png" alt="">
+       </div>
+
+       <div class="flex lg:hidden md:hidden absolute bottom-0 right-0">
+        <img  src="images/cute-pet-small.png" alt="">
+       </div>
+      
+       </div>
+     
+      </div>
+     <div>
+
+     </div>
+    </div>
+      <!-- pet news section -->
+
+    <section class="w-[88%] mx-auto pt-12 pb-12 bg-[#FFF9F4] flex justify-around items-center absolute -bottom-56 lg:left-16 left-6">
+
+    <div>
+      <img src="images/cute-pet-mid.png" alt="">
+    </div>
+
+   <div class="space-y-3">
+    <h3 class="text-3xl">Get Pawsome News!</h3>
+    <p class="font-sans text-gray-600">Exclusive training tips, ticks, product deals and more.</p>
+    <input type="text" placeholder="Enter email...." class="bg-white lg:w-[100%] sm:w-[80%] px-4 py-5">
+
+    <button class="bg-yellow-400 px-5 py-3 text-black text-center rounded-xl">Subscribe</button>
+   </div>
+
+    </section>
+   </section>
+
+     <!--  -->
+
+  </main>
+     <!-- Footer -->
+      <footer class="w-screen bg-[#FFDC2680] lg:pt-80 pt-80 ">
+         <!--content part  -->
+        <div class="w-[88%] mx-auto ">
+          <div class="flex lg:justify-between lg:items-center flex-col lg:flex-row space-y-7 lg:space-y-0">
+            <div class="space-y-2">
+              <!-- logo -->
+              <div class="flex items-center gap-2">
+              <img src="images/logo-footer.png" alt="">
+              <p class="text-2xl">Browse<span class="text-yellow-400">4</span>Pets</p>
+              </div>
+              <p class="font-sans text-xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+            </div>
+
+            <div>
+              <nav>
+                <ul class="text-xl font-sans">
+                  <li>Find a Pet</li>
+                  <li>Breeds</li>
+                  <li>Contact us</li>
+                </ul>
+              </nav>
+            </div>
+
+            <div>
+              <p>Follow Us</p>
+              <div class="space-x-2">
+                <i class="fa-brands fa-facebook text-2xl"></i>
+                <i class="fa-brands fa-instagram text-2xl"></i>
+                <i class="fa-brands fa-linkedin text-2xl rounded-full"></i>
+                <i class="fa-brands fa-youtube text-2xl"></i>
+              </div>
+            </div>
+          </div>
+
+         </div>
       </footer>
 </body>
 </html>
